@@ -2,4 +2,4 @@ all:
 	pdflatex latexProject.tex
 
 clean:
-	rm latexProject.aux latexProject.log latexProject.pdf latexProject_aux
+	rm latexProject.aux latexProject.log latexProject.pdf latexProject.aux
