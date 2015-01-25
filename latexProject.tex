@@ -11,7 +11,30 @@
     The overreaching goal for the player is to defeat the final boss on the lowest floor of the game. Throughout the levels there will be smaller sub-goals that must be achomplished to win in no particular order they are.
         \subsection{Level Boss}
             Every fifth level a power boss will spawn, the user must defeat this boss to continue onto the lower levels. This boss will also drop an evevator key which will enable the player to quickly go back up and down floors to which he/she has a elevator key to.
-    
+
     \section{}
+
+    \section{User Interface}
+        The user interface Is composed of three main components; The game map, the status bar, and the player management pane.
+	The game window is composed of the game map taking the leftmost 80\% of the screen, the management pane taking the remaining 20\%, and the status bar will be centered on the bottom of game map screen.
+
+	\subsection{Map \& Viewpoint}
+	The game will use a 2D, Top-Down perspective with the camera looking at a slight angle from vertical; For example, the front and top of a box on the ground are visible, but not the sides, back, and bottom.
+	The ``far'' walls (those away from the camera, facing towards the bottom of the screen) are visible, the ``near'' walls (near the bottom of the screen facing up) will not be visible.
+
+	\subsection{Combat and Status bar}
+
+	Combat actions, skills, and player status will be displayed at the bottom of the game window, overlaying the game map. It will be composed of a player information box, skills selector, and item selector.
+	The player information box contains critical stats like health and synergy points overlayed with a portrait view of the player that visually depicts status and debufs  (similar to ``Doom'').
+	The skills and items selectors will be a series of boxes containing icons representing unlocked skills and docked items that the player can click to activate.
+
+	\subsection{Player Management Pane}
+	The Inventory, Skills \& Stats, Minimap, Equipped items, and Objectives will be displayed one at a time on slides within the Player Management pane.
+	A series of tabs with representative icons will line the top of the Pane so that the player can switch between slides while playing.
+
+	\subsection{Player Controls}
+	The player controls his avatar with either the arrow keys of his/her keyboard or the mouse. Left clicking a location will cause the avatar to path-find to that location.
+	Right clicking an object will cause the avatar to attempt to interact with that object (use/open/attack) and move there if necessary.
+	If using the keyboard, running into a solid object will attempt to interact with that object.
 
 \end{document}
